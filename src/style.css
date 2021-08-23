@@ -1,0 +1,85 @@
+ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  border: 1px lightgray solid;
+  width: 450px;
+  justify-content: flex-start;
+  margin: 50px;
+  padding: 0;
+}
+
+#list-container {
+  display: flex;
+  flex-flow: column;
+  text-align: left;
+  margin: auto;
+  margin-top: 200px;
+  width: 450px;
+  padding: 20px;
+  box-shadow: 1px 1px 10px;
+}
+
+#list {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  border-bottom: lightgrey solid 1px;
+  height: 2rem;
+  padding: 13px;
+}
+
+input {
+  font-style: italic;
+  border: none;
+  width: 100%;
+  height: 100%;
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40px 0 0;
+}
+
+input:focus {
+  outline: none;
+}
+
+#completed {
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+span {
+  display: flex;
+  justify-content: center;
+}
+
+#input-text {
+  height: 20px;
+  padding: 10px 0 10px 0;
+  border: none;
+  width: 90%;
+}
+
+input[type='checkbox'] {
+  width: 15px;
+}
+
+.fa-check-circle {
+  cursor: pointer;
+  font-size: 1em;
+  align-self: center;
+  margin-right: -45px;
+}
+
+.fas {
+  color: rgba(20, 20, 20, 0.6);
+  text-decoration: none !important;
+  text-align: center;
+}
