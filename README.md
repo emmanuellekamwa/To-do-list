@@ -2,6 +2,8 @@
 
 This is a simple todo list made with Javascript.
 
+![screenshot](./todo-list.png)
+
 ## Built With
 
 - HTML
