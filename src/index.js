@@ -1,23 +1,7 @@
 import './style.css';
 import { checkboxCheck, change } from './checkbox.js';
 
-const list = JSON.parse(localStorage.getItem('list')) || [
-  {
-    description: 'Say morning prayers',
-    completed: false,
-    index: 1,
-  },
-  {
-    description: 'Do the laundry',
-    completed: false,
-    index: 2,
-  },
-  {
-    description: 'Pick children from school',
-    completed: true,
-    index: 3,
-  },
-];
+const list = [];
 
 function saveList() {
   const myList = JSON.stringify(list);
