@@ -1,11 +1,11 @@
 const setStorage = (list) => {
-  localStorage.setItem('storage_to-do', JSON.stringify(list));
+  localStorage.setItem('todos', JSON.stringify(list));
 };
 
 const getStorage = () => {
   const newArray = [];
-  if (localStorage.getItem('storage_to-do')) {
-    const parsed = JSON.parse(localStorage.getItem('storage_to-do'));
+  if (localStorage.getItem('todos')) {
+    const parsed = JSON.parse(localStorage.getItem('todos'));
     for (let i = 0; i < parsed.length; i += 1) {
       newArray.push(parsed[i]);
     }
