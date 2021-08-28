@@ -43,7 +43,7 @@ export { removeIndex };
 
 submitBtn.addEventListener('click', () => {
   const todos = [...task];
-  const todo = document.querySelector('.input').value;
+  const todo = document.querySelector('input[type=text]').value;
   add(todos, todo, setStorage);
   window.location.reload();
 });
