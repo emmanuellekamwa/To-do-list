@@ -17,7 +17,7 @@ To have access to the project locally, follow the simple steps below:
 
 - Clone the project using `https://github.com/emmanuellekamwa/Todo-list.git`
 - Get inside the directory by typing `cd Todo-list`
--  Run `npm run build` and ` npm run start`  after installing all the dependencies using `npm install --save-dev webpack webpack-cli webpack-dev-server html-webpack-plugin style-loader css-loader `
+-  Run `npm run build` and ` npm run start`  after installing all the dependencies using `npm i`
 
 ## Author 
 

@@ -10,6 +10,7 @@ module.exports = {
       title: 'To-do-list',
     }),
   ],
+  devtool: 'inline-source-map',
   devServer: {
     static: './dist',
   },
