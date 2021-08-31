@@ -11,6 +11,9 @@ This is a simple todo list made with Javascript.
 - ES6
 - Webpack
 
+## Live Demo
+[Live Demo Link](https://emmanuellekamwa.github.io/To-do-list/dist/)
+
 ## Getting started 
 
 To have access to the project locally, follow the simple steps below:
